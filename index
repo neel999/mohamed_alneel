@@ -4,72 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-white text-gray-900">
-    <header class="bg-gray-900 text-white py-8">
-        <div class="container mx-auto text-center">
-            <h1 class="text-5xl font-bold">Mohamed Alneel</h1>
-            <p class="text-lg mt-2">Computer Engineer | Data Analyst | Fast Learner</p>
-            <p class="mt-4">
-                <a href="https://neel999.github.io/mohamed_alneel/" class="text-blue-500 underline" target="_blank">View My Live Portfolio</a>
-            </p>
-        </div>
+<body>
+    <header>
+        <h1>Mohamed Alneel</h1>
+        <p>Computer Engineer | Data Analyst | Fast Learner</p>
+        <p><a href="https://neel999.github.io/mohamed_alneel/" target="_blank">View My Live Portfolio</a></p>
     </header>
 
-    <main class="container mx-auto mt-12 px-6">
-        <!-- About Section -->
-        <section id="about" class="mb-16">
-            <div class="text-center">
-                <h2 class="text-4xl font-semibold mb-6">About Me</h2>
-                <p class="text-lg leading-relaxed max-w-3xl mx-auto">I am Mohamed Alneel, a Computer Engineer with expertise in data analysis, cleaning, and visualization. I thrive on solving complex problems, learning new technologies, and delivering impactful solutions in a fast-paced environment.</p>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Mohamed Alneel, a Computer Engineer with expertise in data analysis, cleaning, and visualization.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="mb-16">
-            <h2 class="text-4xl font-semibold mb-6 text-center">Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="border rounded-lg shadow-lg p-6">
-                    <h3 class="text-2xl font-semibold mb-2">Project 1</h3>
-                    <p>A detailed summary of the project, including the technologies used and the outcomes achieved.</p>
-                </div>
-                <div class="border rounded-lg shadow-lg p-6">
-                    <h3 class="text-2xl font-semibold mb-2">Project 2</h3>
-                    <p>A detailed summary of the project, including the technologies used and the outcomes achieved.</p>
-                </div>
-                <div class="border rounded-lg shadow-lg p-6">
-                    <h3 class="text-2xl font-semibold mb-2">Project 3</h3>
-                    <p>A detailed summary of the project, including the technologies used and the outcomes achieved.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="mb-16">
-            <h2 class="text-4xl font-semibold mb-6 text-center">Skills</h2>
-            <div class="flex flex-wrap justify-center gap-4">
-                <span class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg shadow">Data Analysis</span>
-                <span class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg shadow">Data Cleaning</span>
-                <span class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg shadow">Data Visualization</span>
-                <span class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg shadow">Problem Solving</span>
-                <span class="bg-gray-100 text-gray-700 px-6 py-3 rounded-lg shadow">Fast Learning</span>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="text-center">
-            <h2 class="text-4xl font-semibold mb-6">Contact Me</h2>
-            <p class="text-lg mb-4">I'd love to connect! Feel free to reach out via email or LinkedIn.</p>
-            <ul class="list-none space-y-2">
-                <li>Email: <a href="mailto:your.email@example.com" class="text-blue-600">your.email@example.com</a></li>
-                <li>LinkedIn: <a href="https://linkedin.com/in/your-profile" class="text-blue-600" target="_blank">linkedin.com/in/your-profile</a></li>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Data Cleaning</li>
+                <li>Data Visualization</li>
+                <li>Problem Solving</li>
+                <li>Fast Learning</li>
             </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
         </section>
     </main>
 
-    <footer class="bg-gray-900 text-white text-center py-4 mt-16">
+    <footer>
         <p>&copy; 2025 Mohamed Alneel. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
