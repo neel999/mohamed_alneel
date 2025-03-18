@@ -11,6 +11,9 @@
         <div class="container mx-auto text-center">
             <h1 class="text-5xl font-bold">Mohamed Alneel</h1>
             <p class="text-lg mt-2">Computer Engineer | Data Analyst | Fast Learner</p>
+            <p class="mt-4">
+                <a href="https://neel999.github.io/mohamed_alneel/" class="text-blue-500 underline" target="_blank">View My Live Portfolio</a>
+            </p>
         </div>
     </header>
 
